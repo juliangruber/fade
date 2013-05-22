@@ -1,0 +1,33 @@
+{
+  "name": "fade",
+  "description": "Fade a html element.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juliangruber/fade.git"
+  },
+  "homepage": "https://github.com/juliangruber/fade",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "prefixed": "0.0.0"
+  },
+  "devDependencies": {
+    "tap": "*"
+  },
+  "keywords": [
+    "fade",
+    "html",
+    "css",
+    "browserify",
+    "transition"
+  ],
+  "author": {
+    "name": "Julian Gruber",
+    "email": "mail@juliangruber.com",
+    "url": "http://juliangruber.com"
+  },
+  "license": "MIT"
+}
