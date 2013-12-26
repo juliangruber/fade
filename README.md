@@ -13,23 +13,26 @@ var el = document.querySelector('#el');
 fade.out(el); // fade el out in 1s
 fade.in(el, 1500); // fade el in in 1.5s
 fade(el, 0.3, 3000); // fade el to opacity 0.3 in 3s 
+fade.out(el, function() {
+  el.style.display = 'none'; // set display to none after fade out
+});
 ```
 
 ## API
 
 The default `duration` always is `1000` ms.
 
-### fade(el, opacity[, duration])
+### fade(el, opacity[, duration][, callback])
 
-Fade `el` to `opacity` (in `duration` ms).
+Fade `el` to `opacity` (in `duration` ms). Call `callback` when finished.
 
-### fade.out(el[, duration])
+### fade.out(el[, duration][, callback])
 
-Fade out `el` (in `duration` ms).
+Fade out `el` (in `duration` ms). Call `callback` when finished.
 
-### fade.in(el[, duration])
+### fade.in(el[, duration][, callback])
 
-Fade in `el` (in `duration` ms).
+Fade in `el` (in `duration` ms). Call `callback` when finished.
 
 ## Installation
 
