@@ -2,13 +2,13 @@
   "name": "fade",
   "repo": "juliangruber/fade",
   "description": "Fade a html element.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "index.js",
   "scripts": [
     "index.js"
   ],
   "dependencies": {
-    "juliangruber/prefixed": "0.0.0"
+    "juliangruber/prefixed": "0.1.0"
   },
   "keywords": [
     "fade",
