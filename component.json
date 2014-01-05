@@ -1,0 +1,22 @@
+{
+  "name": "fade",
+  "repo": "juliangruber/fade",
+  "description": "Fade a html element.",
+  "version": "0.1.0",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "juliangruber/prefixed": "0.0.0"
+  },
+  "keywords": [
+    "fade",
+    "html",
+    "css",
+    "browserify",
+    "component",
+    "transition"
+  ],
+  "license": "MIT"
+}
