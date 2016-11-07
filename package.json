@@ -12,7 +12,7 @@
     "test": "tap test/*.js"
   },
   "dependencies": {
-    "prefixed": "0.0.0"
+    "prefixed": "0.1.0"
   },
   "devDependencies": {
     "tap": "*"
