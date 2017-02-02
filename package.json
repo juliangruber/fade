@@ -15,7 +15,7 @@
     "prefixed": "0.1.0"
   },
   "devDependencies": {
-    "tap": "*"
+    "tap": ">=10.0.2"
   },
   "keywords": [
     "fade",
